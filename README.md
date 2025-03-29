@@ -10,7 +10,7 @@ Output: Displays results in a tabulated format and saves them to both a CSV file
 Features
 Ping Sweep: Uses ICMP ping to detect live hosts.
 Port Options:
-common: Scans well-known ports (e.g., 21, 22, 80, 443, etc.).
+###common: Scans well-known ports (e.g., 21, 22, 80, 443, etc.).
 all: Scans all ports from 1 to 65535.
 specific: Scans a user-defined port.
 Exclusions: Allows excluding specific IP addresses or ranges (e.g., 192.168.1.10 or 192.168.1.10-192.168.1.20).
