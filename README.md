@@ -59,8 +59,8 @@ python script.py --scan [common|all|specific] --port PORT --exclude IP_OU_PLAGE<
 --exclude : IPs ou plages à exclure (peut être utilisé plusieurs fois).<br>
 Exemple<br>
 Scanner les ports courants en excluant une IP :<br>
-bash<br>
-<h3>python script.py --scan common --exclude 192.168.1.100<br>
+'''bash<br>
+python script.py --scan common --exclude 192.168.1.100<br>
 Scanner un port spécifique :<br>
 bash<br>
 python script.py --scan specific --port 8080<br>
