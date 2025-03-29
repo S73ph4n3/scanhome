@@ -1,7 +1,7 @@
 
 ## English
-Local Network Scanner - Python Script
-This Python script is designed to scan a local network (e.g., 192.168.1.0/24) to discover active hosts and identify open TCP ports. It uses multi-threading for efficient scanning and supports various options for flexibility.
+Local Network Scanner - Python Script <br>
+This Python script is designed to scan a local network (e.g., 192.168.1.0/24) to discover active hosts and identify open TCP ports. It uses multi-threading for efficient scanning and supports various options for flexibility. <br>
 How It Works
 Host Discovery: Performs a ping sweep to identify active IP addresses within the local network range (1-254).
 Port Scanning: Scans specified TCP ports on active hosts to determine which ones are open.
