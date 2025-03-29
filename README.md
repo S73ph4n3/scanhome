@@ -22,7 +22,7 @@ bash<br>
 python script.py --scan [common|all|specific] --port PORT --exclude IP_OR_RANGE<br>
 --scan: Type of scan (default: common).<br>
 --port: Specific port to scan (required for --scan=specific).<br>
---exclude: IPs or ranges to exclude (can be used multiple times).<br>
+--exclude: IPs or ranges to exclude (can be used multiple times).<br><br>
 Example<br>
 Scan common ports, excluding an IP:<br>
 bash<br>
@@ -56,10 +56,10 @@ bash<br>
 python script.py --scan [common|all|specific] --port PORT --exclude IP_OU_PLAGE<br>
 --scan : Type de scan (par défaut : common).<br>
 --port : Port spécifique à scanner (requis pour --scan=specific).<br>
---exclude : IPs ou plages à exclure (peut être utilisé plusieurs fois).<br>
+--exclude : IPs ou plages à exclure (peut être utilisé plusieurs fois).<br><br>
 Exemple<br>
 Scanner les ports courants en excluant une IP :<br>
-'''bash<br>
+bash<br>
 python script.py --scan common --exclude 192.168.1.100<br>
 Scanner un port spécifique :<br>
 bash<br>
